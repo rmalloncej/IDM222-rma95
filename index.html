@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Untitled Document</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+            <input type="checkbox" />
+
+            <!--
+    Some spans to act as a hamburger.
+
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+
+            <ul id="menu">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="resume.html">
+                    <li>Resume</li>
+                </a>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <!--  Highlight current page with .current  -->
+            <li><a href="about.html" class="current">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+
+    </header>
+
+
+     <div id="title">
+
+        <h2 id="header">Who is Ransky Allonce?</h2>
+
+    </div>
+
+    <div id="wrapper">
+        <div id="hero">
+
+            <picture>
+                <source media="(min-width: 30em)" srcset="img/400i.jpg" />
+                <img src="img/ransky_hero.jpg" alt="ransky">
+
+            </picture>
+
+        </div>
+    </div>
+
+
+
+    <div id="about_me">
+        <p>I'm a Interactive Digital Media student currently enrolled in drexel university. I'd describe myself as a pretty chill guy that likes to fet along with other people. Baking is one of my favorite hobbies, but i'm much more of a gamer these days. I try to catch some netflix or anime when I can as well. </p>
+
+    </div>
+
+
+    <!-- Overlayed Cards -->
+
+    <section id="p_pieces">
+
+        <div class="portfolio_card">
+
+            <div class="portfolio_image">
+
+                <img src="img/webworld.jpg" alt="webworld">
+
+                <a href="portfolio/webworld/index.html" target="_blank">
+                    <div class="portfolio_info">
+
+                        <h3>WebWorld Site</h3>
+
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="portfolio_card">
+
+            <div class="portfolio_image">
+
+                <img src="img/cookie_site.jpg" alt="cookie_site">
+
+                <a href="portfolio/cookie/index.html" target="_blank">
+                    <div class="portfolio_info">
+
+                        <h3>Cookie Site</h3>
+
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+       <div class="portfolio_card">
+
+            <div class="portfolio_image">
+
+                <img src="img/artwork.jpg" alt="webworld">
+
+                <a href="portfolio/webworld/index.html" target="_blank">
+                    <div class="portfolio_info">
+
+                        <h3>Artwork</h3>
+
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="portfolio_card">
+
+            <div class="portfolio_image">
+
+                <img src="img/digital.jpg" alt="digital">
+
+                <a href="portfolio/cookie/index.html" target="_blank">
+                    <div class="portfolio_info">
+
+                        <h3>Digital Design</h3>
+
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+</body>
+
+<footer>
+
+    <p>&copy; Ransky Allonce</p>
+
+</footer></html>
